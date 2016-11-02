@@ -10,7 +10,9 @@ Hello there. If you want to start hacking with your Zubi Flyer board, please fol
   If you want to modify the Arduino code that controls your Zubi Flyer, you'll first need to install the Arduino IDE. 
   
   An IDE is an "Integrated Development Enviroment" and is used by computer programmers to write and modify code, and then turn that code into a computer program.
-  ### [Download] the Arduino IDE for 
+  
+:windows:
+:apple:
 ## 2. Install Zubi Flyer Libraries
 ## 3. Install Arduino Drivers
 ## 4. Modify your first game!

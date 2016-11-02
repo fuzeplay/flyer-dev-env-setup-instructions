@@ -35,9 +35,9 @@ Hello there. If you want to start hacking with your Zubi Flyer board, please fol
   
   The Zubi Flyer is like a mouse, when you plug it into your laptop, your laptop needs a driver to understand what the Zubi Flyer is and how to upload to it.
   
-  ### Install the Arduino Drivers on Windows
-  Coming Soon  
-  ### Install the Arduino Drivers on Mac
-  Coming Soon
+### Install the Arduino Drivers on Windows
+
+### Install the Arduino Drivers on Mac
+
 ## 4. Modify your first game!
   Coming Soon

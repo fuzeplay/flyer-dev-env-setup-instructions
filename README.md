@@ -23,6 +23,10 @@ Hello there. If you want to start hacking with your Zubi Flyer board, please fol
   In Computer Programming, a "Library" is code that somebody else that you can copy and modify.
   
   For example, if you want to modify the [Newbie-Zubi]() game on your Zubi Flyer, you don't have to write the code for the entire game on your own, you would use the Newbie-Zubi code that we already wrote and put in the Zubi Flyer Library.
+  
+  1. [Download]() the Zubi Flyer Library
+  2. Open the Arduino IDE that you installed in Step 1
+  3. Coming Soon
 ## 3. Install Arduino Drivers
   A "Driver" is software that lets different hardware talk to each other.
   
@@ -30,8 +34,8 @@ Hello there. If you want to start hacking with your Zubi Flyer board, please fol
   
   The Zubi Flyer is like a mouse, when you plug it into your laptop, your laptop needs a driver to understand what the Zubi Flyer is and how to upload to it.
   
-  ### Install the Arduino Drivers on Windows
+  ###Install the Arduino Drivers on Windows
   Coming Soon  
-  ### Install the Arduino Drivers on Mac
+  ###Install the Arduino Drivers on Mac
   Coming Soon
 ## 4. Modify your first game!

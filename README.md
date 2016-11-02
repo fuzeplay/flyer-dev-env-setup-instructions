@@ -27,6 +27,7 @@ Hello there. If you want to start hacking with your Zubi Flyer board, please fol
   1. [Download]() the Zubi Flyer Library
   2. Open the Arduino IDE that you installed in Step 1
   3. Coming Soon
+
 ## 3. Install Arduino Drivers
   A "Driver" is software that lets different hardware talk to each other.
   

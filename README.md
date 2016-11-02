@@ -13,8 +13,8 @@ Hello there. If you want to start hacking with your Zubi Flyer board, please fol
   
   An IDE is an "Integrated Development Enviroment" and is used by computer programmers to write and modify code, and then turn that code into a computer program.
   
-  (Download the Arduino IDE for Windows)[] | (Download the Arduino IDE for Mac)[]
-  ---------------------------------------- | ------------------------------------
+  ### (Download the Arduino IDE for Windows)[]
+  ### (Download the Arduino IDE for Mac)[]
 ## 2. Install Zubi Flyer Libraries
 ## 3. Install Arduino Drivers
 ## 4. Modify your first game!

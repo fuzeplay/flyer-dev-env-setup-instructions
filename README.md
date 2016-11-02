@@ -28,17 +28,17 @@ Hello there. If you want to start hacking with your Zubi Flyer board, please fol
   2. Open the Arduino IDE that you installed in Step 1
   3. Coming Soon
 
-## 3. Install Arduino Drivers
+## 3. Install Adafruit Trinket Drivers
   A "Driver" is software that lets different hardware talk to each other.
   
   If you plug your mouse into a laptop, your laptop has Drivers that tell the laptop what kind of mouse it is and how to understand mouse movements and turn those into the cursor moving on your screen.
   
-  The Zubi Flyer is like a mouse, when you plug it into your laptop, your laptop needs a driver to understand what the Zubi Flyer is and how to upload to it.
+  The Zubi Flyer is like a mouse, when you plug it into your laptop, your laptop needs a driver to understand what the Zubi Flyer is and how to upload to it. The Zubi Flyer is built using the [Adafruit Trinket](https://www.adafruit.com/product/2000) chip, so you'll need to install the Adafruit Trinket Drivers.
   
-### Install the Arduino Drivers on Windows
+### Install the Drivers on Windows
   Coming Soon
-### Install the Arduino Drivers on Mac
-  Coming Soon
+### Install the Drivers on Mac
+  :smile: You don't have to do anything, Mac already has the drivers installed
 
 ## 4. Modify your first game!
   Coming Soon

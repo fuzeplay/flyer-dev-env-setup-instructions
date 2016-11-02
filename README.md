@@ -7,7 +7,7 @@ Hello there. If you want to start hacking with your Zubi Flyer board, please fol
 ## 1. Install the Arduino IDE
   ![Arduino Logo](https://www.arduino.cc/en/pub/skins/arduinoWide/img/ArduinoAPP-01.svg)
   
-  The Zubi Flyer is built on top [Arduino](https://www.arduino.cc/) hardware and software. 
+  The Zubi Flyer is built using [Arduino](https://www.arduino.cc/) hardware and software. 
   
   Arduino is a hardware and software platform for hobbyists and Engineers to make neat electronics projects.
   

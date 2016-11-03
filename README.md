@@ -24,6 +24,8 @@ Hello there. If you want to start hacking with your Zubi Flyer board, please fol
   
   For example, if you want to modify the [Newbie-Zubi]() game on your Zubi Flyer, you don't have to write the code for the entire game on your own, you would use the Newbie-Zubi code that we already wrote and put in the Zubi Flyer Library.
   
+  If you're curious, feel free to [read more](https://www.arduino.cc/en/Hacking/LibraryTutorial) about how Arduino Libraries work.
+  
   1. [Download]() the Zubi Flyer Library
   2. Open the Arduino IDE that you installed in Step 1
   3. Coming Soon

@@ -30,6 +30,10 @@ Hello there. If you want to start hacking with your Zubi Flyer board, please fol
   2. Open the Arduino IDE, navigate to Sketch > Include Library. At the top of the drop down list, select the option to "Add .ZIP Library''.
   ![Import Library From Zip](https://www.arduino.cc/en/uploads/Guide/ImportLibraryFromZIPFile.png)
   3. Navigate to the Zubi Flyer .ZIP file's location and open it.
+  ![Select Zubi Flyer .ZIP file](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/images/find_zip_file.png?raw=true)
+  4. Restart the Arduino IDE and you're done.
+  
+  TODO Show Examples files
   
   For more details on how to install Libraries, please check out [Arduino's official guide](https://www.arduino.cc/en/Guide/Libraries).
 

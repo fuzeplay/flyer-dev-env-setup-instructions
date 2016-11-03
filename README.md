@@ -1,6 +1,6 @@
 # Zubi Flyer Development Environment Setup Instructions
 
-Hello there. If you want to start hacking with your Zubi Flyer board, please follow the following instructions:
+Hello there. If you want to start hacking with your Zubi Flyer board, please follow the following instructions.
 
 [Contact Support](fuzeplay.co) if you're running into any issues, we'll be happy to help you out :)
 

@@ -43,4 +43,4 @@ Hello there. If you want to start hacking with your Zubi Flyer board, please fol
   :smile: You don't have to do anything, Mac already has the drivers installed
 
 ## 4. Modify your first game!
-  Coming Soondw
+  Coming Soon

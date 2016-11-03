@@ -26,9 +26,12 @@ Hello there. If you want to start hacking with your Zubi Flyer board, please fol
   
   If you're curious, feel free to [read more](https://www.arduino.cc/en/Hacking/LibraryTutorial) about how Arduino Libraries work.
   
-  1. [Download]() the Zubi Flyer Library
-  2. Open the Arduino IDE that you installed in Step 1
-  3. Coming Soon
+  1. [Download]() the Zubi Flyer .ZIP Library
+  2. Open the Arduino IDE, navigate to Sketch > Include Library. At the top of the drop down list, select the option to "Add .ZIP Library''.
+  ![Import Library From Zip](https://www.arduino.cc/en/uploads/Guide/ImportLibraryFromZIPFile.png)
+  3. Navigate to the Zubi Flyer .ZIP file's location and open it.
+  
+  For more details on how to install Libraries, please check out [Arduino's official guide](https://www.arduino.cc/en/Guide/Libraries).
 
 ## 3. Install Adafruit Trinket Drivers
   A "Driver" is software that lets different hardware talk to each other.

@@ -43,11 +43,10 @@ Hello there. If you want to start hacking with your Zubi Flyer board, please fol
   
   First, you'll need to confirm that your Arduino IDE lets you set the **Pro Trinket 5V / 16MHz (USB)** as your board. If you installed the Arduino IDE correctly from step one, Selecting **Tools** and then **Board** should provide you with the option to choose **Pro Trinket 5V / 16MHz (USB)**.
   
-  
-  //Correct Image
+  ![Pro Trinket is Present](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/adafruit-board-present.png?raw=true)
   If the **Pro Trinket 5V / 16MHz (USB)** option is there, please skip step **3.a** and go straight to **3.b**
   
-  //Incorrect Image
+    ![Pro Trinket is not present](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/no_adafruit_board.png)
   If the **Pro Trinket 5V / 16MHz (USB)** option is **not** there, please complete step **3.a** and then go to step **3.b**
 
 ### 3.a Install Adafruit Trinket Board
@@ -57,11 +56,12 @@ Hello there. If you want to start hacking with your Zubi Flyer board, please fol
   On Mac, go to *Arduino* and then then *Preferences*
   //Preferences Image
   Paste `https://adafruit.github.io/arduino-board-index/package_adafruit_index.json` into the *additional Boards Manager URLs* box and then press OK
+  ![Preferences Additional Boards Manager URLs](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/settings-additional-boards.png?raw=true)
   2. Open the Boards Manager
   //Open Boards Manager
   
-  //Install the Adafruit AVR Boards
-  Install version 1.4.9 of the **Adafruit AVR Boards** by **Adafruit**
+  ![Boards Manager](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/boards-manager.png?raw=true)
+  *Install* version 1.4.9 of the **Adafruit AVR Boards** by **Adafruit**
   
 
 ### 3.b Install Adafruit Trinket Drivers

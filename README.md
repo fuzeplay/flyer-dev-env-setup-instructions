@@ -53,14 +53,12 @@ Hello there. If you want to start hacking with your Zubi Flyer board, please fol
 
   1. First, you'll need to set the *Additional Boards Manager URL*
   
+  ![Preferences](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/select-preferences.png?raw=true)
   On Windows, go the the *File* Menu and select *Preferences*
-  
   On Mac, go to *Arduino* and then then *Preferences*
-  
-  //Preferences Image
-  Paste `https://adafruit.github.io/arduino-board-index/package_adafruit_index.json` into the *additional Boards Manager URLs* box and then press OK
-  
+ 
   ![Preferences Additional Boards Manager URLs](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/settings-additional-boards.png?raw=true)
+    Paste `https://adafruit.github.io/arduino-board-index/package_adafruit_index.json` into the *additional Boards Manager URLs* box and then press OK
   2. Open the Boards Manager
   
   //Open Boards Manager

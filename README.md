@@ -37,7 +37,35 @@ Hello there. If you want to start hacking with your Zubi Flyer board, please fol
   
   For more details on how to install Libraries, please check out [Arduino's official guide](https://www.arduino.cc/en/Guide/Libraries).
 
-## 3. Install Adafruit Trinket Drivers
+## 3. Setup Adafruit Trinket Board
+
+  The Zubi Flyer is built using the [Adafruit Trinket](https://www.adafruit.com/product/2000) board, so you'll need to make sure that your Arduino IDE and computer are setup properly to program this board.
+  
+  First, you'll need to confirm that your Arduino IDE lets you set the **Pro Trinket 5V / 16MHz (USB)** as your board. If you installed the Arduino IDE correctly from step one, Selecting **Tools** and then **Board** should provide you with the option to choose **Pro Trinket 5V / 16MHz (USB)**.
+  
+  
+  //Correct Image
+  If the **Pro Trinket 5V / 16MHz (USB)** option is there, please skip step **3.a** and go straight to **3.b**
+  
+  //Incorrect Image
+  If the **Pro Trinket 5V / 16MHz (USB)** option is **not** there, please complete step **3.a** and then go to step **3.b**
+
+### 3.a Install Adafruit Trinket Board
+
+  1. First, you'll need to set the *Additional Boards Manager URL*
+  On Windows, go the the *File* Menu and select *Preferences*
+  On Mac, go to *Arduino* and then then *Preferences*
+  //Preferences Image
+  Paste `https://adafruit.github.io/arduino-board-index/package_adafruit_index.json` into the *additional Boards Manager URLs* box and then press OK
+  2. Open the Boards Manager
+  //Open Boards Manager
+  
+  //Install the Adafruit AVR Boards
+  Install version 1.4.9 of the **Adafruit AVR Boards** by **Adafruit**
+  
+
+### 3.b Install Adafruit Trinket Drivers
+
   A "Driver" is software that lets different hardware talk to each other.
   
   If you plug your mouse into a laptop, your laptop has Drivers that tell the laptop what kind of mouse it is and how to understand mouse movements and turn those into the cursor moving on your screen.

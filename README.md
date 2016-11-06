@@ -46,7 +46,7 @@ Hello there. If you want to start hacking with your Zubi Flyer board, please fol
   ![Pro Trinket is Present](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/adafruit-board-present.png?raw=true)
   If the **Pro Trinket 5V / 16MHz (USB)** option is there, please skip step **3.a** and go straight to **3.b**
   
-    ![Pro Trinket is not present](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/no_adafruit_board.png)
+  ![Pro Trinket is not present](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/no_adafruit_board.png)
   If the **Pro Trinket 5V / 16MHz (USB)** option is **not** there, please complete step **3.a** and then go to step **3.b**
 
 ### 3.a Install Adafruit Trinket Board

@@ -52,12 +52,17 @@ Hello there. If you want to start hacking with your Zubi Flyer board, please fol
 ### 3.a Install Adafruit Trinket Board
 
   1. First, you'll need to set the *Additional Boards Manager URL*
+  
   On Windows, go the the *File* Menu and select *Preferences*
+  
   On Mac, go to *Arduino* and then then *Preferences*
+  
   //Preferences Image
   Paste `https://adafruit.github.io/arduino-board-index/package_adafruit_index.json` into the *additional Boards Manager URLs* box and then press OK
+  
   ![Preferences Additional Boards Manager URLs](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/settings-additional-boards.png?raw=true)
   2. Open the Boards Manager
+  
   //Open Boards Manager
   
   ![Boards Manager](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/boards-manager.png?raw=true)

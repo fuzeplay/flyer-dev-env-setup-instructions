@@ -15,7 +15,7 @@ Hello there. If you want to start hacking with your Zubi Flyer board, please fol
   
   An IDE is an "Integrated Development Enviroment" and is used by Computer Programmers to write and modify code, and then turn that code into a computer program.
   
-  [Download the Arduino IDE for Windows](https://www.arduino.cc/download_handler.php?f=/arduino-1.6.4-windows.exe) | [Download the Arduino IDE for Mac](https://www.arduino.cc/download_handler.php?f=/arduino-1.6.4-macosx.zip)
+  [Download the Arduino IDE for Windows](https://s3.amazonaws.com/adafruit-download/adafruit-arduino-1.6.4-windows.zip) | [Download the Arduino IDE for Mac](https://s3.amazonaws.com/adafruit-download/adafruit-arduino-1.6.4-macosx.zip)
   ------------ | -------------
 ## 2. Install Zubi Flyer Library
   After you've installed the Arduino IDE, you'll need to install Fuze's Zubi Flyer Library. 

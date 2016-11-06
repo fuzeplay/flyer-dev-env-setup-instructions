@@ -20,7 +20,7 @@ Hello there. If you want to start hacking with your Zubi Flyer board, please fol
 ## 2. Install Zubi Flyer Library
   After you've installed the Arduino IDE, you'll need to install Fuze's Zubi Flyer Library. 
   
-  In Computer Programming, a "Library" is code that somebody else that you can copy and modify.
+  In Computer Programming, a "Library" is code that somebody else wrote that you can copy and modify.
   
   For example, if you want to modify the [Newbie-Zubi]() game on your Zubi Flyer, you don't have to write the code for the entire game on your own, you would use the Newbie-Zubi code that we already wrote and put in the Zubi Flyer Library.
   

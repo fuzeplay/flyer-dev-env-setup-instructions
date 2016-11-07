@@ -73,16 +73,13 @@ Hello there. If you want to start hacking with your Zubi Flyer board, please fol
   ![Boards Manager](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/boards-manager.png?raw=true)
   
   *Install* version 1.4.9 of the **Adafruit AVR Boards** by **Adafruit**
-  
 
 ### 3.b Install Adafruit Trinket Drivers
 
   A "Driver" is software that lets different hardware talk to each other.
   
   If you plug your mouse into a laptop, your laptop has Drivers that tell the laptop what kind of mouse it is and how to understand mouse movements and turn those into the cursor moving on your screen.
-  
-  The Zubi Flyer is like a mouse, when you plug it into your laptop, your laptop needs a driver to understand what the Zubi Flyer is and how to upload to it. The Zubi Flyer is built using the [Adafruit Trinket](https://www.adafruit.com/product/2000) chip, so you'll need to install the Adafruit Trinket Drivers.
-  
+   
 ### Install the Drivers on Windows
   Coming Soon
 ### Install the Drivers on Mac

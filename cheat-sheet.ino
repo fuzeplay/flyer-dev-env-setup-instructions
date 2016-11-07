@@ -9,3 +9,7 @@ CRGB leds[NUMBER_OF_LEDS]; //LED Array (don't change this)
 #define BUTTON_ONE_PIN 6 
 #define BUTTON_TWO_PIN 5 
 #define BUTTON_THREE_PIN A2 
+
+#define BUTTON_TRIANGLE_PIN 3
+#define BUTTON_CIRCLE_PIN 4
+#define BUTTON_SQUARE_PIN 8 

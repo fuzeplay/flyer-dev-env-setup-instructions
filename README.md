@@ -87,3 +87,7 @@ Hello there. If you want to start hacking with your Zubi Flyer board, please fol
 
 ## 4. Modify your first game!
   Coming Soon
+  
+  Set board to **Pro Trinket 5V / 16MHz (USB)**
+  Set programmer to **USBTiny ISP**
+  

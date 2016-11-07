@@ -26,12 +26,12 @@ Hello there. If you want to start hacking with your Zubi Flyer board, please fol
   
   If you're curious, feel free to [read more](https://www.arduino.cc/en/Hacking/LibraryTutorial) about how Arduino Libraries work.
   
-  1. [Download]() the Zubi Flyer .ZIP Library
+  1. Download the [Zubi Flyer .ZIP Library]() and the [FastLED .ZIP Library](https://github.com/FastLED/FastLED/archive/v3.1.3.zip)
   2. Open the Arduino IDE, navigate to Sketch > Include Library. At the top of the drop down list, select the option to "Add .ZIP Library''.
   ![Import Library From Zip](https://www.arduino.cc/en/uploads/Guide/ImportLibraryFromZIPFile.png)
   3. Navigate to the Zubi Flyer .ZIP file's location and open it.
   ![Select Zubi Flyer .ZIP file](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/images/find_zip_file.png?raw=true)
-  4. Restart the Arduino IDE and you're done.
+  4. Repeat Steps 2-3 for the FastLED .ZIP Library
   
   TODO Show Examples files
   

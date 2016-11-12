@@ -17,23 +17,34 @@ Hello there. If you want to start hacking with your Zubi Flyer board, please fol
   
   [Download the Arduino IDE for Windows](https://s3.amazonaws.com/adafruit-download/adafruit-arduino-1.6.4-windows.zip) | [Download the Arduino IDE for Mac](https://s3.amazonaws.com/adafruit-download/adafruit-arduino-1.6.4-macosx.zip)
   ------------ | -------------
-## 2. Install Zubi Flyer Library
-  After you've installed the Arduino IDE, you'll need to install Fuze's Zubi Flyer Library. 
+## 2. Install Required Libraries
+  After you've installed the Arduino IDE, you'll need to install Fuze's Zubi Flyer Library and other Libraries that it requires. 
   
   In Computer Programming, a "Library" is code that somebody else wrote that you can copy and modify.
   
-  For example, if you want to modify the [Newbie-Zubi]() game on your Zubi Flyer, you don't have to write the code for the entire game on your own, you would use the Newbie-Zubi code that we already wrote and put in the Zubi Flyer Library.
+  For example, if you want to modify the [Newbie-Zubi]() game on your Zubi Flyer, you don't have to write the code for the entire game on your own, you would use the Newbie-Zubi code that we already wrote and put in the Zubi Flyer Library. By the same logic, the Zubi Flyer library uses the [FastLED](http://fastled.io/) library to control the LEDs (that's the flashing lights!) on the Zubi 
   
   If you're curious, feel free to [read more](https://www.arduino.cc/en/Hacking/LibraryTutorial) about how Arduino Libraries work.
-  
-  1. Download the [Zubi Flyer .ZIP Library]() and the [FastLED .ZIP Library](https://github.com/FastLED/FastLED/archive/v3.1.3.zip)
+### 2.a Install the Zubi Flyer Libraries
+  1. Download the [Zubi Flyer .ZIP Library]()
   2. Open the Arduino IDE, navigate to Sketch > Include Library. At the top of the drop down list, select the option to "Add .ZIP Library''.
   ![Import Library From Zip](https://www.arduino.cc/en/uploads/Guide/ImportLibraryFromZIPFile.png)
   3. Navigate to the Zubi Flyer .ZIP file's location and open it.
   ![Select Zubi Flyer .ZIP file](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/images/find_zip_file.png?raw=true)
-  4. Repeat Steps 2-3 for the FastLED .ZIP Library
+
   
-  TODO Show Examples files
+### 2.b Install the other required libraries
+  You can use the Arduino IDE's *Library Manager* to install the other required libraries, it's easier than installing via a zip file.
+  
+  1. Open the *Library Manager* by navigating to Sketch > Include Library > Manage Libraries...
+  ![Open Library Manager](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/open_library_manager.png?raw=true)
+  
+  2. Use the search field to find and install the following libraries:
+  ![Library Manager](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/library_manager.png?raw=true)
+    **FastLED**, Which is used to control LEDs on the board
+    **Bounce2**, Which is used to [debounce](https://www.arduino.cc/en/Tutorial/Debounce) button inputs so the board can read your input properly
+    **EnableInterrupt**, Which is used to handle button [interrupts] for some of the board's menu buttons.
+  3. Once you've installed these libraries, you should see them listed below *Contributed Libraries* when you navigate to Sketch > Include Library
   
   For more details on how to install Libraries, please check out [Arduino's official guide](https://www.arduino.cc/en/Guide/Libraries).
 

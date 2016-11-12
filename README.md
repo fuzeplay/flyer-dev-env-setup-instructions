@@ -41,9 +41,14 @@ Hello there. If you want to start hacking with your Zubi Flyer board, please fol
   
   2. Use the search field to find and install the following libraries:
   ![Library Manager](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/library_manager.png?raw=true)
+  
     **FastLED**, Which is used to control LEDs on the board
-    **Bounce2**, Which is used to [debounce](https://www.arduino.cc/en/Tutorial/Debounce) button inputs so the board can read your input properly
+    
+    **Bounce2**, Which is used to [debounce](https://www.arduino.cc/en/Tutorial/Debounce) button inputs so the board can
+    read your input properly
+    
     **EnableInterrupt**, Which is used to handle button [interrupts] for some of the board's menu buttons.
+    
   3. Once you've installed these libraries, you should see them listed below *Contributed Libraries* when you navigate to Sketch > Include Library
   
   For more details on how to install Libraries, please check out [Arduino's official guide](https://www.arduino.cc/en/Guide/Libraries).

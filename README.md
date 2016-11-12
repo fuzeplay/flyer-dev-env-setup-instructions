@@ -47,7 +47,7 @@ Hello there. If you want to start hacking with your Zubi Flyer board, please fol
     **Bounce2**, Which is used to [debounce](https://www.arduino.cc/en/Tutorial/Debounce) button inputs so the board can
     read your input properly
     
-    **EnableInterrupt**, Which is used to handle button [interrupts] for some of the board's menu buttons.
+    **EnableInterrupt**, Which is used to handle button [interrupts](https://www.arduino.cc/en/Reference/Interrupts) for some of the board's menu buttons.
     
   3. Once you've installed these libraries, you should see them listed below *Contributed Libraries* when you navigate to Sketch > Include Library
   

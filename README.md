@@ -97,12 +97,18 @@ Hello there. If you want to start hacking with your Zubi Flyer board, please fol
   If you plug your mouse into a laptop, your laptop has Drivers that tell the laptop what kind of mouse it is and how to understand mouse movements and turn those into the cursor moving on your screen.
    
 ### Install the Drivers on Windows
-  Coming Soon
+  If you are using Windows, you will need to install the Arduino drivers. After you've completed the above steps, just connect your Fuze board to your Windows laptop via the USB cable and a small dialog box will appear.
   
+  ![Windows Drivers install box](https://i.stack.imgur.com/7vMay.png)
   
-  If you are still having issues with your board, please make sure that you correctly installed the required drivers by also installing the drivers (directly from Adafruit)[https://learn.adafruit.com/usbtinyisp/drivers].
+  Wait until Windows finished installing the drivers before moving on to the next step. 
+  
+  If you are on Windows 8, you might need to follow [additional installation steps](http://mytechblog.com/tutorials/arduino/install-arduino-drivers-on-windows-8/) to securely install the Drivers.
+  
+  If you are having issues with Windows recognizing your drivers, please make sure that you correctly installed the required drivers by also installing the drivers (directly from Adafruit)[https://learn.adafruit.com/usbtinyisp/drivers].
+
 ### Install the Drivers on Mac
-  :smile: You don't have to do anything, Mac already has the drivers installed
+  You don't have to do anything, Mac already has the drivers installed
 
 ## 4. Modify your first game!
   After you've played with the games on your Zubi board for a while, you might want to learn how to modify the games. Since the Zubi Flyer Games are open sourced, you can freely modify and change the game's source code. If you want in-depth instructions on how to write Arduino code, then please read their [Official Getting Started Guide](https://www.arduino.cc/en/Guide/HomePage). In this short tutorial, we're going to explain how to modify the [Newbie Zubi game](https://github.com/fuzeplay/zubi-flyer-games/blob/master/newbie_zubi/newbie_zubi.ino).

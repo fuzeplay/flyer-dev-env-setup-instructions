@@ -160,10 +160,13 @@ Hit the **reset** button on your Zubi Flyer Board. The board will flash red for 
 //Insert Gif of light flashing
 
 Right after you push the **reset** button (while the red light is still flashing), push the **upload** button in the Arduino IDE to upload your new source code to the board.
+
 ![Arduino Upload Button](http://house4u.com.ua/photos/solar-controller/en/arduino-upload.gif)
 
 If the upload worked correctly, you should see **Done Uploading** at the bottom of the Arduino IDE.
 
+![Upload Done](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/upload_done.png?raw=true)
 
+You can now disconnect your board from your computer and play the modified Newbie Zubi Game :P
 
   

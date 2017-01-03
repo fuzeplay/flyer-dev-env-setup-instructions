@@ -102,7 +102,7 @@ Hello there. If you want to start hacking with your Zubi Flyer board, please fol
   :smile: You don't have to do anything, Mac already has the drivers installed
 
 ## 4. Modify your first game!
-  After you've played with the games on your Zubi board for a while, you might want to learn how to modify the games. Since the Zubi Flyer Games are open sourced, you can freely modify and change the game's source code. If you want in-depth instructions on how to write Arduino code, then please read their [Official Getting Started Guide](https://www.arduino.cc/en/Guide/HomePage). In this short tutorial, we're going to explain how to modify the (Newbie Zubi game)[https://github.com/fuzeplay/zubi-flyer-games/blob/master/newbie_zubi/newbie_zubi.ino].
+  After you've played with the games on your Zubi board for a while, you might want to learn how to modify the games. Since the Zubi Flyer Games are open sourced, you can freely modify and change the game's source code. If you want in-depth instructions on how to write Arduino code, then please read their [Official Getting Started Guide](https://www.arduino.cc/en/Guide/HomePage). In this short tutorial, we're going to explain how to modify the [Newbie Zubi game](https://github.com/fuzeplay/zubi-flyer-games/blob/master/newbie_zubi/newbie_zubi.ino).
   
   First, open the Arduino IDE and open a copy of the Newbie Zubi source code by going to: File > Examples > XXXX (To be specified later).
   

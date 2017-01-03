@@ -160,6 +160,7 @@ Connect your Zubi Flyer Board to your laptop via a USB cable.
 Hit the **reset** button on your Zubi Flyer Board. The board will flash red for a few seconds. You can only upload new source code to the board when the light is flashing.
 
 //Insert Gif of light flashing
+
 Immediately after you push the **reset** button (while the red light is still flashing), push the **upload** button in the Arduino IDE to upload your new source code to the board.
 
 ![Arduino Upload Button](http://house4u.com.ua/photos/solar-controller/en/arduino-upload.gif)

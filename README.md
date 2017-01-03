@@ -13,7 +13,7 @@ Hello there. If you want to start hacking with your Zubi Flyer board, please fol
   
   If you want to write and modify the Arduino code that controls your Zubi Flyer, you'll first need to install the Arduino IDE on your laptop. 
   
-  An IDE is an "Integrated Development Enviroment" and is used by Computer Programmers to write and modify code, and then turn that code into a computer program.
+  An IDE is an "Integrated Development Enviroment" and is used by Computer Programmers to write/ modify code, and then turn that code into a computer program.
   
   [Download the Arduino IDE for Windows](https://s3.amazonaws.com/adafruit-download/adafruit-arduino-1.6.4-windows.zip) | [Download the Arduino IDE for Mac](https://s3.amazonaws.com/adafruit-download/adafruit-arduino-1.6.4-macosx.zip)
   ------------ | -------------

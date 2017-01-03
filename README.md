@@ -103,9 +103,9 @@ Hello there. If you want to start hacking with your Zubi Flyer board, please fol
   
   Wait until Windows finished installing the drivers before moving on to the next step. 
   
-  If you are on Windows 8, you might need to follow [additional installation steps](http://mytechblog.com/tutorials/arduino/install-arduino-drivers-on-windows-8/) to securely install the Drivers.
+  If you are having issues with Windows recognizing your drivers, please make sure that you correctly installed the required drivers by also installing the drivers [directly from Adafruit](https://learn.adafruit.com/usbtinyisp/drivers).  
   
-  If you are having issues with Windows recognizing your drivers, please make sure that you correctly installed the required drivers by also installing the drivers [directly from Adafruit](https://learn.adafruit.com/usbtinyisp/drivers).
+  If you are on Windows 8, you might need to follow [additional installation steps](http://mytechblog.com/tutorials/arduino/install-arduino-drivers-on-windows-8/) to securely install the Drivers.
 
 ### Install the Drivers on Mac
   You don't have to do anything, Mac already has the drivers installed

@@ -22,7 +22,7 @@ Hello there. If you want to start hacking with your Zubi Flyer board, please fol
   
   In Computer Programming, a "Library" is code that somebody else wrote that you can copy and modify.
   
-  For example, if you want to modify the [Newbie-Zubi]() game on your Zubi Flyer, you don't have to write the code for the entire game on your own, you would use the Newbie-Zubi code that we already wrote and put in the Zubi Flyer Library. By the same logic, the Zubi Flyer library uses the [FastLED](http://fastled.io/) library to control the LEDs (that's the flashing lights!) on the Zubi 
+  For example, if you want to modify the [Newbie-Zubi](https://github.com/fuzeplay/zubi-flyer-games/blob/master/newbie_zubi/newbie_zubi.ino) game on your Zubi Flyer, you don't have to write the code for the entire game on your own, you would use the Newbie-Zubi code that we've already written and put in the Zubi Flyer Library. Similarly, the Zubi Flyer library uses the [FastLED](http://fastled.io/) library to control the LEDs (that's the flashing lights!) on the Zubi Flyer board.
   
   If you're curious, feel free to [read more](https://www.arduino.cc/en/Hacking/LibraryTutorial) about how Arduino Libraries work.
 ### 2.a Install the Zubi Flyer Libraries

@@ -98,6 +98,9 @@ Hello there. If you want to start hacking with your Zubi Flyer board, please fol
    
 ### Install the Drivers on Windows
   Coming Soon
+  
+  
+  If you are still having issues with your board, please make sure that you correctly installed the required drivers by also installing the drivers (directly from Adafruit)[https://learn.adafruit.com/usbtinyisp/drivers].
 ### Install the Drivers on Mac
   :smile: You don't have to do anything, Mac already has the drivers installed
 

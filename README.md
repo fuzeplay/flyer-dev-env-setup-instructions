@@ -142,7 +142,7 @@ const int MAGELLAN_ENVY[] = {SQUARE_PUSH, CIRCLE_PUSH, TRIANGLE_PUSH};
 #define MAGELLAN_ENVY_LENGTH 3
 ```
 
-Let's modify the sequence from Square, Circle, Triangle to Square, Circle, Triangle, Circle. Change the above line of code to the following:
+Let's modify the sequence from Square, Circle, Triangle to Square, Circle, Triangle, Circle. Change the above lines of code to the following:
 ```
 const int MAGELLAN_ENVY[] = {SQUARE_PUSH, CIRCLE_PUSH, TRIANGLE_PUSH, CIRCLE_PUSH}; //Square, Circle, Triangle, Circle
 #define MAGELLAN_ENVY_LENGTH 4 //Remember to update the length of the sequence from 3 to 4 if you add a button push at the end

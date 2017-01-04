@@ -26,7 +26,7 @@ Hello there. If you want to start hacking with your Zubi Flyer board, please fol
   
   If you're curious, feel free to [read more](https://www.arduino.cc/en/Hacking/LibraryTutorial) about how Arduino Libraries work.
 ### 2.a Install the Zubi Flyer Libraries
-  1. Download the [Zubi Flyer .ZIP Library]()
+  1. Download the [Zubi Flyer .ZIP Library](https://github.com/fuzeplay/zubi-flyer-games/raw/master/Fuze.zip)
   2. Open the Arduino IDE, navigate to Sketch > Include Library. At the top of the drop down list, select the option to "Add .ZIP Library''.
   ![Import Library From Zip](https://www.arduino.cc/en/uploads/Guide/ImportLibraryFromZIPFile.png)
   3. Navigate to the Zubi Flyer .ZIP file's location and open it.
@@ -113,7 +113,7 @@ Hello there. If you want to start hacking with your Zubi Flyer board, please fol
 ## 4. Modify your first game!
   After you've played with the games on your Zubi board for a while, you might want to learn how to modify the games. Since the Zubi Flyer Games are open sourced, you can freely modify and change the game's source code. If you want in-depth instructions on how to write Arduino code, then please read their [Official Getting Started Guide](https://www.arduino.cc/en/Guide/HomePage). In this short tutorial, we're going to explain how to modify the [Newbie Zubi game](https://github.com/fuzeplay/zubi-flyer-games/blob/master/newbie_zubi/newbie_zubi.ino).
   
-  First, open the Arduino IDE and open a copy of the Newbie Zubi source code by going to: File > Examples > XXXX (To be specified later).
+  First, open the Arduino IDE and open a copy of the Newbie Zubi source code by going to: File > Examples > Fuze > newbie_zubi.
   
   At the top of the source code, you should see a section named **User modifiable values**. These are variables that you can modify to change the game without going too deeply into the underlying logic.
   ```

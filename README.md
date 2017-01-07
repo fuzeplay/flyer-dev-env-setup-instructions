@@ -1,31 +1,21 @@
 # Zubi Flyer Development Environment Setup Instructions
 
-Hello there. If you want to start hacking with your Zubi Flyer board, please follow the following instructions.
+To start coding your Zubi Flyer, follow these instructions.
 
 [Contact Support](fuzeplay.co) if you're running into any issues, we'll be happy to help you out :)
 
 ## 1. Install the Arduino IDE
   ![Arduino Logo](https://www.arduino.cc/en/pub/skins/arduinoWide/img/ArduinoAPP-01.svg)
   
-  The Zubi Flyer is built using [Arduino](https://www.arduino.cc/) hardware and software. 
-  
-  Arduino is a hardware and software platform for hobbyists and Engineers to make neat electronics projects.
-  
-  If you want to write and modify the Arduino code that controls your Zubi Flyer, you'll first need to install the Arduino IDE on your laptop. 
-  
-  An IDE is an "Integrated Development Enviroment" and is used by Computer Programmers to write/ modify code, and then turn that code into a computer program.
-  
   [Download the Arduino IDE for Windows](https://s3.amazonaws.com/adafruit-download/adafruit-arduino-1.6.4-windows.zip) | [Download the Arduino IDE for Mac](https://s3.amazonaws.com/adafruit-download/adafruit-arduino-1.6.4-macosx.zip)
-  ------------ | -------------
+ 
+  
+ 
 ## 2. Install Required Libraries
-  After you've installed the Arduino IDE, you'll need to install Fuze's Zubi Flyer Library and other Libraries that it requires. 
   
-  In Computer Programming, a "Library" is code that somebody else wrote that you can copy and modify.
+  A "Library" is code that somebody else wrote that you can copy and modify.
   
-  For example, if you want to modify the [Newbie-Zubi](https://github.com/fuzeplay/zubi-flyer-games/blob/master/newbie_zubi/newbie_zubi.ino) game on your Zubi Flyer, you don't have to write the code for the entire game on your own, you would use the Newbie-Zubi code that we've already written and put in the Zubi Flyer Library. Similarly, the Zubi Flyer library uses the [FastLED](http://fastled.io/) library to control the LEDs (that's the flashing lights!) on the Zubi Flyer board.
-  
-  If you're curious, feel free to [read more](https://www.arduino.cc/en/Hacking/LibraryTutorial) about how Arduino Libraries work.
-### 2.a Install the Zubi Flyer Libraries
+### a.
   1. Download the [Zubi Flyer .ZIP Library](https://github.com/fuzeplay/zubi-flyer-games/raw/master/Fuze.zip)
   2. Open the Arduino IDE, navigate to Sketch > Include Library. At the top of the drop down list, select the option to "Add .ZIP Library''.
   ![Import Library From Zip](https://www.arduino.cc/en/uploads/Guide/ImportLibraryFromZIPFile.png)
@@ -33,8 +23,7 @@ Hello there. If you want to start hacking with your Zubi Flyer board, please fol
   ![Select Zubi Flyer .ZIP file](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/images/find_zip_file.png?raw=true)
 
   
-### 2.b Install the other required libraries
-  You can use the Arduino IDE's *Library Manager* to install the other required libraries, it's easier than installing via a zip file.
+### b.
   
   1. Open the *Library Manager* by navigating to Sketch > Include Library > Manage Libraries...
   ![Open Library Manager](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/open_library_manager.png?raw=true)
@@ -54,10 +43,8 @@ Hello there. If you want to start hacking with your Zubi Flyer board, please fol
   For more details on how to install Libraries, please check out [Arduino's official guide](https://www.arduino.cc/en/Guide/Libraries).
 
 ## 3. Setup Adafruit Trinket Board
-
-  The Zubi Flyer is built using the [Adafruit Trinket](https://www.adafruit.com/product/2000) board, so you'll need to make sure that your Arduino IDE and computer are setup properly to program this board.
   
-  First, you'll need to confirm that your Arduino IDE lets you set the **Pro Trinket 5V / 16MHz (USB)** as your board. If you installed the Arduino IDE correctly from step one, Selecting **Tools** and then **Board** should provide you with the option to choose **Pro Trinket 5V / 16MHz (USB)**.
+Confirm that your Arduino IDE lets you set the **Pro Trinket 5V / 16MHz (USB)** as your board by selecting **Tools** and then **Board**.  You should see the option to select **Pro Trinket 5V / 16MHz (USB)**.
   
   ![Pro Trinket is Present](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/adafruit-board-present.png?raw=true)
   If the **Pro Trinket 5V / 16MHz (USB)** option is there, please skip step **3.a** and go straight to **3.b**
@@ -67,7 +54,7 @@ Hello there. If you want to start hacking with your Zubi Flyer board, please fol
 
 ### 3.a Install Adafruit Trinket Board
 
-  1. First, you'll need to set the *Additional Boards Manager URL*
+  1. Set the *Additional Boards Manager URL*
   
   ![Preferences](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/select-preferences.png?raw=true)
   
@@ -91,13 +78,8 @@ Hello there. If you want to start hacking with your Zubi Flyer board, please fol
   *Install* version 1.4.9 of the **Adafruit AVR Boards** by **Adafruit**
 
 ### 3.b Install Adafruit Trinket Drivers
-
-  A "Driver" is software that lets different hardware talk to each other.
-  
-  If you plug your mouse into a laptop, your laptop has Drivers that tell the laptop what kind of mouse it is and how to understand mouse movements and turn those into the cursor moving on your screen.
-   
 ### Install the Drivers on Windows
-  If you are using Windows, you will need to install the Arduino drivers. After you've completed the above steps, just connect your Fuze board to your Windows laptop via the USB cable and a small dialog box will appear.
+  If you are using Windows, you will need to install the Arduino drivers. After you've completed the above steps, just connect Zubi Flyer to your computer using the micro USB.
   
   ![Windows Drivers install box](https://i.stack.imgur.com/7vMay.png)
   
@@ -108,7 +90,7 @@ Hello there. If you want to start hacking with your Zubi Flyer board, please fol
   If you are on Windows 8, you might need to follow [additional installation steps](http://mytechblog.com/tutorials/arduino/install-arduino-drivers-on-windows-8/) to securely install the Drivers.
 
 ### Install the Drivers on Mac
-  You don't have to do anything, Mac already has the drivers installed
+  You don't have to do anything, Mac already has the drivers installed!
 
 ## 4. Modify your first game!
   After you've played with the games on your Zubi board for a while, you might want to learn how to modify the games. Since the Zubi Flyer Games are open sourced, you can freely modify and change the game's source code. If you want in-depth instructions on how to write Arduino code, then please read their [Official Getting Started Guide](https://www.arduino.cc/en/Guide/HomePage). In this short tutorial, we're going to explain how to modify the [Newbie Zubi game](https://github.com/fuzeplay/zubi-flyer-games/blob/master/newbie_zubi/newbie_zubi.ino).

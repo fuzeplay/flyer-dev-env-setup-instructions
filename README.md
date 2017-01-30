@@ -1,48 +1,48 @@
-# Zubi Flyer Development Environment Setup Instructions
+# Zubi Flyer Setup Instructions in 3 Steps: Download Arduino IDE, Install Required Libraries, Setup Zubi Flyer's Board, and then your ready to code the games!
 
-To start coding your Zubi Flyer, follow these instructions.
+To start coding Zubi Flyer, follow these instructions:
 
-[Contact Support](fuzeplay.co) if you're running into any issues, we'll be happy to help you out :)
+[Contact Support](fuzeplay.co) if you're running into any issues, we're happy to help you out!
 
-## 1. Install the Arduino IDE
-  ![Arduino Logo](https://www.arduino.cc/en/pub/skins/arduinoWide/img/ArduinoAPP-01.svg)
+## 1. Download the Arduino IDE
+(This makes it easy to write and upload code to Zubi Flyer!)
+[Arduino Logo](https://www.arduino.cc/en/pub/skins/arduinoWide/img/ArduinoAPP-01.svg)
   
   [Download the Arduino IDE for Windows](https://s3.amazonaws.com/adafruit-download/adafruit-arduino-1.6.4-windows.zip) | [Download the Arduino IDE for Mac](https://s3.amazonaws.com/adafruit-download/adafruit-arduino-1.6.4-macosx.zip)
  
   
  
 ## 2. Install Required Libraries
+(A "Library" is a bunch of code that somebody else wrote that you can use!)
   
-  A "Library" is code that somebody else wrote that you can copy and modify.
-  
-### a.
-  1. Download the [Zubi Flyer .ZIP Library](https://github.com/fuzeplay/zubi-flyer-games/raw/master/Fuze.zip)
-  2. Open the Arduino IDE, navigate to Sketch > Include Library. At the top of the drop down list, select the option to "Add .ZIP Library''.
+### First,
+  1. Download Zubi Flyer's code library: [Zubi Flyer .ZIP Library](https://github.com/fuzeplay/zubi-flyer-games/raw/master/Fuze.zip)
+  2. Open the Arduino IDE, and navigate to Sketch > Include Library. At the top of the drop down list, select the option to "Add .ZIP Library''.
   ![Import Library From Zip](https://www.arduino.cc/en/uploads/Guide/ImportLibraryFromZIPFile.png)
-  3. Navigate to the Zubi Flyer .ZIP file's location and open it.
+  3. Find Zubi Flyer's .ZIP library that you just downloaded to your computer and open it.
   ![Select Zubi Flyer .ZIP file](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/images/find_zip_file.png?raw=true)
 
   
-### b.
+### Second,
   
-  1. Open the *Library Manager* by navigating to Sketch > Include Library > Manage Libraries...
+  1. In the Arduino IDE, open the *Library Manager* by navigating to Sketch > Include Library > Manage Libraries...
   ![Open Library Manager](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/open_library_manager.png?raw=true)
   
   2. Use the search field to find and install the following libraries:
   ![Library Manager](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/library_manager.png?raw=true)
   
-    **FastLED**, Which is used to control LEDs on the board
+    **FastLED**, Which is used to control LEDs on Zubi Flyer
     
-    **Bounce2**, Which is used to [debounce](https://www.arduino.cc/en/Tutorial/Debounce) button inputs so the board can
-    read your input properly
+    **Bounce2**, Which is used to [debounce](https://www.arduino.cc/en/Tutorial/Debounce) button inputs so Zubi Flyer can
+    read your input properly (basically, this makes Zubi Flyer work the right way!).
 
-    **EnableInterrupt**, Which is used to handle button [interrupts](https://www.arduino.cc/en/Reference/Interrupts) for some of the board's menu buttons.
+    **EnableInterrupt**, Which is used to handle button [interrupts](https://www.arduino.cc/en/Reference/Interrupts) for some of the Zubi Flyer's menu buttons (also makes Zubi Flyer work the right way!).
     
   3. Once you've installed these libraries, you should see them listed below *Contributed Libraries* when you navigate to Sketch > Include Library
   
-  For more details on how to install Libraries, please check out [Arduino's official guide](https://www.arduino.cc/en/Guide/Libraries).
+  For more details on how to install Libraries, check out [Arduino's official guide](https://www.arduino.cc/en/Guide/Libraries).
 
-## 3. Setup Adafruit Trinket Board
+## 3. Setup Zubi Flyer's Adafruit Trinket Board
   
 Confirm that your Arduino IDE lets you set the **Pro Trinket 5V / 16MHz (USB)** as your board by selecting **Tools** and then **Board**.  You should see the option to select **Pro Trinket 5V / 16MHz (USB)**.
   
@@ -92,12 +92,12 @@ Confirm that your Arduino IDE lets you set the **Pro Trinket 5V / 16MHz (USB)** 
 ### Install the Drivers on Mac
   You don't have to do anything, Mac already has the drivers installed!
 
-## 4. Modify your first game!
-  After you've played with the games on your Zubi board for a while, you might want to learn how to modify the games. Since the Zubi Flyer Games are open sourced, you can freely modify and change the game's source code. If you want in-depth instructions on how to write Arduino code, then please read their [Official Getting Started Guide](https://www.arduino.cc/en/Guide/HomePage). In this short tutorial, we're going to explain how to modify the [Newbie Zubi game](https://github.com/fuzeplay/zubi-flyer-games/blob/master/newbie_zubi/newbie_zubi.ino).
+## 4. Now you're ready to code your first game!
+ Since the Zubi Flyer Games are open sourced, you can freely modify and change the game's source code. If you want in-depth instructions on how to write Arduino code, then please read their [Official Getting Started Guide](https://www.arduino.cc/en/Guide/HomePage). In this short tutorial, we're going to explain how to change the [Newbie Zubi game](https://github.com/fuzeplay/zubi-flyer-games/blob/master/newbie_zubi/newbie_zubi.ino)code!
   
   First, open the Arduino IDE and open a copy of the Newbie Zubi source code by going to: File > Examples > Fuze > newbie_zubi.
   
-  At the top of the source code, you should see a section named **User modifiable values**. These are variables that you can modify to change the game without going too deeply into the underlying logic.
+  At the top of the source code, you should see a section named **User modifiable values**. These are variables that you can easily modify to change the games!
   ```
 //Newbie-Zubi
 //Written by Jordan Rejaud for FUZE
@@ -127,7 +127,7 @@ const int FIESTA_GRANDE[] = {CIRCLE_PUSH, SQUARE_PUSH, TRIANGLE_PUSH, TRIANGLE_P
 ```
 
 
-You will see that to trigger the Magellan's Envy Light Show, you need to enter the following sequence on your board: Square Button, Circle Button, Triangle Button.
+You will see that to activate the Magellan's Envy Light Show, you need to enter the following sequence on your Zubi Flyer's Board: Square, Circle, Triangle.
 ```
 const int MAGELLAN_ENVY[] = {SQUARE_PUSH, CIRCLE_PUSH, TRIANGLE_PUSH};
 #define MAGELLAN_ENVY_LENGTH 3
@@ -139,20 +139,20 @@ const int MAGELLAN_ENVY[] = {SQUARE_PUSH, CIRCLE_PUSH, TRIANGLE_PUSH, CIRCLE_PUS
 #define MAGELLAN_ENVY_LENGTH 4 //Remember to update the length of the sequence from 3 to 4 if you add a button push at the end
 ```
 
-Finally, you need to upload this changed Newbie Zubi source code to your board.
+### Once you've written new code, you need to upload the changed Newbie Zubi game code to your Zubi Flyer Board:
 
-Set board to **Pro Trinket 5V / 16MHz (USB)** (Tools > Board)
-Set programmer to **USBTiny ISP** (Tools > Programmer)
+1. Set board to **Pro Trinket 5V / 16MHz (USB)** (Tools > Board)
+2. Set programmer to **USBTiny ISP** (Tools > Programmer)
 
-Connect your Zubi Flyer Board to your laptop via a USB cable.
+3. Connect your Zubi Flyer Board to your laptop via a USB cable.
 
 //Insert Image of cable connecting to board and laptop
 
-Hit the **reset** button on your Zubi Flyer Board. The board will flash red for a few seconds. You can only upload new source code to the board when the light is flashing.
+4. IMPORTANT: Push the **reset** button on your Zubi Flyer Board (See Zubi flyer's instructable if you're not sure where the reset button is). The board will flash red for a few seconds. You can only upload new source code to the board when the light is flashing.  Every time you upload code to Zubi Flyer, you will have to push the "reset" button first.
 
 //Insert Gif of light flashing
 
-Immediately after you push the **reset** button (while the red light is still flashing), push the **upload** button in the Arduino IDE to upload your new source code to the board.
+5.  Immediately after you push the **reset** button (while the red light is still flashing), push the **upload** button in the Arduino IDE to upload your new source code to the board.
 
 ![Arduino Upload Button](http://house4u.com.ua/photos/solar-controller/en/arduino-upload.gif)
 
@@ -160,6 +160,9 @@ If the upload worked correctly, you should see **Done Uploading** at the bottom 
 
 ![Upload Done](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/upload_done.png?raw=true)
 
-You can now disconnect your board from your computer and play the modified Newbie Zubi Game :P
+6. You can now disconnect Zubi Flyer's Board from your computer and play the modified Newbie Zubi Game :P
+
+### To reset Zubi Flyer to factory settings:
+Simply copy and past the code from Zubi Flyer's Zip. Library titled "Factory Install" into the Arduino IDE, push the "reset" button on Zubi Flyer's Board, and then click the "upload" button in the Arduino IDE.  Once the Factory Install code is done uploading, disconnect Zubi Flyer from your computer and go play!
 
   

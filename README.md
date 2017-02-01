@@ -9,7 +9,7 @@ To start coding Zubi Flyer, follow these instructions:
 [Arduino Logo](https://www.arduino.cc/en/pub/skins/arduinoWide/img/ArduinoAPP-01.svg)
   
   [Download the Arduino IDE for Windows](https://s3.amazonaws.com/adafruit-download/adafruit-arduino-1.6.4-windows.zip) | [Download the Arduino IDE for Mac](https://s3.amazonaws.com/adafruit-download/adafruit-arduino-1.6.4-macosx.zip)
- 
+  ------------ | -------------
   
  
 ## 2. Install Required Libraries

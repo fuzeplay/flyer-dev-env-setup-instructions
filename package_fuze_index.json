@@ -10,12 +10,12 @@
             },
             "platforms":[
                 {
-                    "name":"FUZE Zubi Flyer Boards",
+                    "name":"FUZE Zubi Flyer Board",
                     "architecture":"avr",
                     "version":"1.1.5",
                     "category":"Contributed",
-                    "url":"https://github.com/sparkfun/Arduino_Boards/raw/master/IDE_Board_Manager/sparkfunboards.1.1.5.tar.bz2",
-                    "archiveFileName":"sparkfunboards.1.1.5.tar.bz2",
+                    "url":"https://github.com/fuzeplay/boards/blob/master/fuzeboards.1.1.5.tar.bz2?raw=true",
+                    "archiveFileName":"fuzeboards.1.1.5.tar.bz2",
                     "checksum":"SHA-256:41f9728983e0dbab597bb46ddf00b5bac6cfec7c8f3771ecd1612dae58bb0366",
                     "size":"1162215",
                     "help":{
@@ -23,7 +23,7 @@
                     },
                     "boards":[
                         {
-                            "name":"Zubi Flyer (Based on the Pro Micro)"
+                            "name":"Zubi Flyer"
                         }
                     ],
                     "toolsDependencies":[

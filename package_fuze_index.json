@@ -21,7 +21,7 @@
                     "help":{
                         "online":"http://www.fuzeplay.io/"
                     },
-                    "boards":[,
+                    "boards":[
                         {
                             "name":"Zubi Flyer (Based on the Pro Micro)"
                         }

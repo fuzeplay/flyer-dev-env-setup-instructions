@@ -21,36 +21,9 @@
                     "help":{
                         "online":"http://www.fuzeplay.io/"
                     },
-                    "boards":[
+                    "boards":[,
                         {
-                            "name":"RedBoard"
-                        },
-                        {
-                            "name":"MaKey MaKey"
-                        },
-                        {
-                            "name":"Pro Micro"
-                        },
-                        {
-                            "name":"Fio v3"
-                        },
-                        {
-                            "name":"Qduino Mini"
-                        },
-                        {
-                            "name":"Digital Sandbox"
-                        },
-                        {
-                            "name":"Mega Pro"
-                        },
-                        {
-                            "name":"RedBot"
-                        },
-                        {
-                            "name":"Serial 7-segment Display"
-                        },
-                        {
-                            "name":"ATmega128RFA1 Dev Board"
+                            "name":"Zubi Flyer (Based on the Pro Micro)"
                         }
                     ],
                     "toolsDependencies":[

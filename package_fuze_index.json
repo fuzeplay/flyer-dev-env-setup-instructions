@@ -14,7 +14,7 @@
                     "architecture":"avr",
                     "version":"1.1.5",
                     "category":"Contributed",
-                    "url":"https://firebasestorage.googleapis.com/v0/b/fuze-b066f.appspot.com/o/fuzeboards.1.1.5.tar.bz2?alt=media&token=e9ef0844-0a29-4eb5-bbae-d616a39c708e",
+                    "url":"http://172.31.98.134:3000/fuzeboards.1.1.5.tar.bz2",
                     "archiveFileName":"fuzeboards.1.1.5.tar.bz2",
                     "checksum":"SHA-256:41f9728983e0dbab597bb46ddf00b5bac6cfec7c8f3771ecd1612dae58bb0366",
                     "size":"1162215",

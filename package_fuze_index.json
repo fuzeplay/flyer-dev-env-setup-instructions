@@ -16,7 +16,7 @@
                     "category":"Contributed",
                     "url":"http://192.168.1.83:3000/fuzeboards.1.1.5.tar.bz2",
                     "archiveFileName":"fuzeboards.1.1.5.tar.bz2",
-                    "checksum":"SHA-256:41f9728983e0dbab597bb46ddf00b5bac6cfec7c8f3771ecd1612dae58bb0366",
+                    "checksum":"SHA-256:7a4271dbef1f0871070f0938fbd4794477adf45452fac21ff62f25ed504aa144",
                     "size":"2567580",
                     "help":{
                         "online":"http://www.fuzeplay.io/"

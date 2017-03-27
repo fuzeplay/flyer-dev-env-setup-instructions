@@ -75,7 +75,7 @@ To start coding Zubi Flyer, follow these instructions:
 
   ![Windows Drivers install box](https://i.stack.imgur.com/7vMay.png)
 
-  Since the Zubi Flyer is based on the [Sparkfun Pro Micro Board](https://www.sparkfun.com/products/12640), you'll need to [Download](https://github.com/sparkfun/Arduino_Boards/archive/master.zip) the drivers and follow [their instructions](https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide/installing-windows) to setup the drivers.
+  Since the Zubi Flyer is based on the [Sparkfun Pro Micro Board](https://www.sparkfun.com/products/12640), you'll need to [Download](https://github.com/sparkfun/Arduino_Boards/archive/master.zip) their drivers and follow [their instructions](https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide/installing-windows) to setup the drivers.
 
   If you are on Windows 8, you might need to follow [additional installation steps](http://mytechblog.com/tutorials/arduino/install-arduino-drivers-on-windows-8/) to securely install the Drivers.
 
@@ -83,7 +83,9 @@ To start coding Zubi Flyer, follow these instructions:
   You don't have to do anything, Mac already has the drivers installed.
 
 ## 5. Now you're ready to code your first game!
- Since the Zubi Flyer Games are open sourced, you can freely modify and change the game's source code. If you want in-depth instructions on how to write Arduino code, then please read their [Official Getting Started Guide](https://www.arduino.cc/en/Guide/HomePage). In this short tutorial, we're going to explain how to change the [Newbie Zubi game](https://github.com/fuzeplay/zubi-flyer-games/blob/master/newbie_zubi/newbie_zubi.ino)code!
+ Since the Zubi Flyer Games are open sourced, you can freely modify and change the game's source code.
+ If you want in-depth instructions on how to write Arduino code, then please read their [Official Getting Started Guide](https://www.arduino.cc/en/Guide/HomePage).
+ In this short tutorial, we're going to explain how to change the [Newbie Zubi game](https://github.com/fuzeplay/zubi-flyer-games/blob/master/newbie_zubi/newbie_zubi.ino) code!
 
   First, open the Arduino IDE and open a copy of the Newbie Zubi source code by going to: File > Examples > Fuze > newbie_zubi.
 

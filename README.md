@@ -1,11 +1,12 @@
-# Zubi Flyer Setup Instructions in 3 Steps: Download Arduino IDE, Install Required Libraries, Setup Zubi Flyer's Board, and then your ready to code the games!
+# Zubi Flyer Setup Instructions in 3 Steps
+## Download Arduino IDE, Install Required Libraries, Setup Zubi Flyer's Board, and then you're ready to code the games!
 
-To start coding Zubi Flyer, follow these instructions:
+To start coding the Zubi Flyer, follow these instructions:
 
 [Contact Support](fuzeplay.co) if you're running into any issues, we're happy to help you out!
 
 ## 1. Download the Arduino IDE
-(This makes it easy to write and upload code to Zubi Flyer!)
+(This makes it easy to write and upload code to the Zubi Flyer!)
 
   [Download the Arduino IDE for Windows](https://www.arduino.cc/download_handler.php?f=/arduino-1.8.2-windows.exe) | [Download the Arduino IDE for Mac](https://www.arduino.cc/download_handler.php?f=/arduino-1.8.2-macosx.zip)
   ------------ | -------------
@@ -75,7 +76,7 @@ To start coding Zubi Flyer, follow these instructions:
 
   ![Windows Drivers install box](https://i.stack.imgur.com/7vMay.png)
 
-  Since the Zubi Flyer is based on the [Sparkfun Pro Micro Board](https://www.sparkfun.com/products/12640), you'll need to [Download](https://github.com/sparkfun/Arduino_Boards/archive/master.zip) their drivers and follow the **Windows Driver Installation** part of [their instructions](https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide/installing-windows) to setup the drivers.
+  Since the Zubi Flyer is based on the [Sparkfun Pro Micro Board](https://www.sparkfun.com/products/12640), you'll need to follow the **Windows Driver Installation** part of [their instructions](https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide/installing-windows) to setup the drivers.
 
   If you are on Windows 8, you might need to follow [additional installation steps](http://mytechblog.com/tutorials/arduino/install-arduino-drivers-on-windows-8/) to securely install the Drivers.
 

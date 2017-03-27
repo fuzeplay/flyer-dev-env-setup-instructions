@@ -60,13 +60,11 @@ To start coding the Zubi Flyer, follow these instructions:
 
   ![Open Boards Manager](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/images/select_boards_manager_cropped.png?raw=true)
 
-  On Windows, go the the *File* Menu and select *Preferences*
-
-  On Mac, go to *Arduino* and then then *Preferences*
+  Naviate to *Tools* > *Board* > *Board Manager*
 
   ![Boards Manager](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/images/boards_manager.png?raw=true)
 
-  *Install* the **FuzePlay Zubi Flyer** by **FuzePlay**
+  Search for "Fuze" in the Boards Manager and *Install* the **FuzePlay Zubi Flyer** by **FuzePlay**
 
   3. Confirm that your Arduino IDE lets you set the **FuzePlay Zubi Flyer** as your board by selecting **Tools** and then **Board**.  You should see the option to select **FuzePlay Zubi Flyer**.
 

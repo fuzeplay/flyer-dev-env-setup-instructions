@@ -29,7 +29,7 @@ To start coding the Zubi Flyer, follow these instructions:
   ![Open Library Manager](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/raw/master/images/select_manage_libraries_cropped.png?raw=true)
 
   2. Use the search field to find and install the following libraries:
-  ![Library Manager](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/library_manager.png?raw=true)
+  ![Library Manager](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/images/boards_manager.png?raw=true)
 
 **FastLED**, Which is used to control LEDs on Zubi Flyer
 
@@ -46,25 +46,25 @@ To start coding the Zubi Flyer, follow these instructions:
 
   1. Set the *Additional Boards Manager URL*
 
-  ![Preferences](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/select-preferences.png?raw=true)
+  ![Preferences](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/images/select_preferences_cropped.png?raw=true)
 
   On Windows, go the the *File* Menu and select *Preferences*
 
   On Mac, go to *Arduino* and then then *Preferences*
 
-  ![Preferences Additional Boards Manager URLs](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/settings-additional-boards.png?raw=true)
+  ![Preferences Additional Boards Manager URLs](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/images/preferences.png?raw=true)
 
   Paste `https://raw.githubusercontent.com/fuzeplay/flyer-dev-env-setup-instructions/master/package_fuze_index.json` into the *additional Boards Manager URLs* box and then press OK
 
   2. Open the Boards Manager
 
-  ![Open Boards Manager](  https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/select-board-manager-menu.png?raw=true)
+  ![Open Boards Manager](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/images/select_boards_manager_cropped.png?raw=true)
 
   On Windows, go the the *File* Menu and select *Preferences*
 
   On Mac, go to *Arduino* and then then *Preferences*
 
-  ![Boards Manager](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/boards-manager.png?raw=true)
+  ![Boards Manager](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/images/boards_manager.png?raw=true)
 
   *Install* the **FuzePlay Zubi Flyer** by **FuzePlay**
 
@@ -149,7 +149,7 @@ const int MAGELLAN_ENVY[] = {SQUARE_PUSH, CIRCLE_PUSH, TRIANGLE_PUSH, CIRCLE_PUS
 
 5.  Immediately after you push the **reset** button (while the red light is still flashing), push the **upload** button in the Arduino IDE to upload your new source code to the board.
 
-![Arduino Upload Button](http://house4u.com.ua/photos/solar-controller/en/arduino-upload.gif)
+![Arduino Upload Button](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/images/upload.png?raw=true)
 
 If the upload worked correctly, you should see **Done Uploading** at the bottom of the Arduino IDE.
 

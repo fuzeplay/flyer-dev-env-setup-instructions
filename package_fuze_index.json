@@ -1,8 +1,8 @@
 {
     "packages":[
         {
-            "name":"FUZE",
-            "maintainer":"FUZE Interactive",
+            "name":"FuzePlay",
+            "maintainer":"FuzePlay",
             "websiteURL":"http://www.fuzeplay.io/",
             "email":"kyle@fuzeplay.io",
             "help":{
@@ -10,11 +10,11 @@
             },
             "platforms":[
                 {
-                    "name":"FUZE Zubi Flyer",
+                    "name":"FuzePlay Zubi Flyer",
                     "architecture":"avr",
                     "version":"1.1.5",
                     "category":"Contributed",
-                    "url":"http://192.168.1.83:3000/fuzeboards.1.1.5.tar.bz2",
+                    "url":"https://rawgit.com/fuzeplay/flyer-dev-env-setup-instructions/master/fuzeboards.1.1.5.tar.bz2",
                     "archiveFileName":"fuzeboards.1.1.5.tar.bz2",
                     "checksum":"SHA-256:7a4271dbef1f0871070f0938fbd4794477adf45452fac21ff62f25ed504aa144",
                     "size":"2567580",

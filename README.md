@@ -54,6 +54,7 @@ To start coding Zubi Flyer, follow these instructions:
   ![Preferences Additional Boards Manager URLs](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/settings-additional-boards.png?raw=true)
 
   Paste `https://raw.githubusercontent.com/fuzeplay/flyer-dev-env-setup-instructions/master/package_fuze_index.json` into the *additional Boards Manager URLs* box and then press OK
+
   2. Open the Boards Manager
 
   ![Open Boards Manager](  https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/select-board-manager-menu.png?raw=true)

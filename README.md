@@ -84,7 +84,9 @@ To start coding Zubi Flyer, follow these instructions:
 
 ## 5. Now you're ready to code your first game!
  Since the Zubi Flyer Games are open sourced, you can freely modify and change the game's source code.
+
  If you want in-depth instructions on how to write Arduino code, then please read their [Official Getting Started Guide](https://www.arduino.cc/en/Guide/HomePage).
+ 
  In this short tutorial, we're going to explain how to change the [Newbie Zubi game](https://github.com/fuzeplay/zubi-flyer-games/blob/master/newbie_zubi/newbie_zubi.ino) code!
 
   First, open the Arduino IDE and open a copy of the Newbie Zubi source code by going to: File > Examples > Fuze > newbie_zubi.

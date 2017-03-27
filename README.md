@@ -67,7 +67,7 @@ To start coding Zubi Flyer, follow these instructions:
 
   *Install* the **FuzePlay Zubi Flyer** by **FuzePlay**
 
-  3. Confirm that your Arduino IDE lets you set the **FuzePlay Zubi Flyer** as your board by selecting **Tools** and then **Board**.  You should see the option to select **FuzePlay Zubi Flyer***.
+  3. Confirm that your Arduino IDE lets you set the **FuzePlay Zubi Flyer** as your board by selecting **Tools** and then **Board**.  You should see the option to select **FuzePlay Zubi Flyer**.
 
 ## 4. Install Zubi Flyer Drivers
 ### Install the Drivers on Windows

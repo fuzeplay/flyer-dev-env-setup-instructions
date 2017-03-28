@@ -140,15 +140,11 @@ const int MAGELLAN_ENVY[] = {SQUARE_PUSH, CIRCLE_PUSH, TRIANGLE_PUSH, CIRCLE_PUS
 1. Set board to **FuzePlay Zubi Flyer** (Tools > Board)
 2. Set programmer to **USBTiny ISP** (Tools > Programmer)
 
-3. Connect your Zubi Flyer Board to your laptop via a USB cable.
+3. Connect your Zubi Flyer Board to your laptop via a Micro-USB cable.
 
 //Insert Image of cable connecting to board and laptop
 
-4. IMPORTANT: Push the **reset** button on your Zubi Flyer Board (See Zubi flyer's instructable if you're not sure where the reset button is). The board will flash red for a few seconds. You can only upload new source code to the board when the light is flashing.  Every time you upload code to Zubi Flyer, you will have to push the "reset" button first.
-
-//Insert Gif of light flashing
-
-5.  Immediately after you push the **reset** button (while the red light is still flashing), push the **upload** button in the Arduino IDE to upload your new source code to the board.
+4.  Push the **upload** button in the Arduino IDE to upload your new source code to the board.
 
 ![Arduino Upload Button](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/images/upload.png?raw=true)
 
@@ -159,4 +155,4 @@ If the upload worked correctly, you should see **Done Uploading** at the bottom 
 6. You can now disconnect Zubi Flyer's Board from your computer and play the modified Newbie Zubi Game :P
 
 ### To reset Zubi Flyer to factory settings:
-Simply copy and past the code from Zubi Flyer's Zip. Library titled "Factory Install" into the Arduino IDE, push the "reset" button on Zubi Flyer's Board, and then click the "upload" button in the Arduino IDE.  Once the Factory Install code is done uploading, disconnect Zubi Flyer from your computer and go play!
+Simply copy and past the code from Zubi Flyer's Zip. Library titled "Factory Default" into the Arduino IDE then click the "upload" button in the Arduino IDE.  Once the Factory Install code is done uploading, disconnect Zubi Flyer from your computer and go play!

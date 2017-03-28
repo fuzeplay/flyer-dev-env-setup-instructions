@@ -29,7 +29,7 @@ To start coding the Zubi Flyer, follow these instructions:
   ![Open Library Manager](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/raw/master/images/select_manage_libraries_cropped.png?raw=true)
 
   2. Use the search field to find and install the following libraries:
-  ![Library Manager](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/images/boards_manager.png?raw=true)
+  ![Library Manager](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/images/library_manager.png?raw=true)
 
 **FastLED**, Which is used to control LEDs on Zubi Flyer
 
@@ -72,7 +72,7 @@ To start coding the Zubi Flyer, follow these instructions:
 ### Install the Drivers on Windows
   If you are using Windows, you will need to install the Arduino drivers.
 
-  ![Windows Drivers install box](https://i.stack.imgur.com/7vMay.png)
+  ![Windows Drivers dialog](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/images/windows_driver.png?raw=true)
 
   Since the Zubi Flyer is based on the [Sparkfun Pro Micro Board](https://www.sparkfun.com/products/12640), you'll need to follow the **Windows Driver Installation** part of [their instructions](https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide/installing-windows) to setup the drivers.
 
@@ -151,7 +151,7 @@ const int MAGELLAN_ENVY[] = {SQUARE_PUSH, CIRCLE_PUSH, TRIANGLE_PUSH, CIRCLE_PUS
 
 If the upload worked correctly, you should see **Done Uploading** at the bottom of the Arduino IDE.
 
-![Upload Done](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/upload_done.png?raw=true)
+![Upload Done](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/images/upload_done.png?raw=true)
 
 6. You can now disconnect Zubi Flyer's Board from your computer and play the modified Newbie Zubi Game :P
 

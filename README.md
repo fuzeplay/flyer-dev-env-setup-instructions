@@ -157,4 +157,5 @@ If the upload worked correctly, you should see **Done Uploading** at the bottom 
 ### To reset Zubi Flyer to factory settings:
 Open a new copy of the Zubi Flyer's factory default code by going to File > Examples > Fuze > factory.
 Click the "upload" button in the Arduino IDE.  
+
 Once the factory default code is done uploading, disconnect Zubi Flyer from your computer and go play!

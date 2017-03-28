@@ -155,4 +155,6 @@ If the upload worked correctly, you should see **Done Uploading** at the bottom 
 6. You can now disconnect Zubi Flyer's Board from your computer and play the modified Newbie Zubi Game :P
 
 ### To reset Zubi Flyer to factory settings:
-Simply copy and past the code from Zubi Flyer's Zip. Library titled "Factory Default" into the Arduino IDE then click the "upload" button in the Arduino IDE.  Once the Factory Install code is done uploading, disconnect Zubi Flyer from your computer and go play!
+Open a new copy of the Zubi Flyer's factory default code by going to File > Examples > Fuze > factory.
+Click the "upload" button in the Arduino IDE.  
+Once the factory default code is done uploading, disconnect Zubi Flyer from your computer and go play!

@@ -31,12 +31,12 @@ To start coding the Zubi Flyer, follow these instructions:
   2. Use the search field to find and install the following libraries:
   ![Library Manager](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/images/library_manager.png?raw=true)
 
-**FastLED**, Which is used to control LEDs on Zubi Flyer
+    **FastLED**, Which is used to control LEDs on Zubi Flyer
 
-**Bounce2**, Which is used to [debounce](https://www.arduino.cc/en/Tutorial/Debounce) button inputs so Zubi Flyer can
+    **Bounce2**, Which is used to [debounce](https://www.arduino.cc/en/Tutorial/Debounce) button inputs so Zubi Flyer can
     read your input properly (basically, this makes Zubi Flyer work the right way!).
 
-**EnableInterrupt**, Which is used to handle button [interrupts](https://www.arduino.cc/en/Reference/Interrupts) for some of the Zubi Flyer's menu buttons (also makes Zubi Flyer work the right way!).
+    **EnableInterrupt**, Which is used to handle button [interrupts](https://www.arduino.cc/en/Reference/Interrupts) for some of the Zubi Flyer's menu buttons (also makes Zubi Flyer work the right way!).
 
   3. Once you've installed these libraries, you should see them listed below *Contributed Libraries* when you navigate to Sketch > Include Library
 

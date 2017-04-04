@@ -7,10 +7,11 @@ At minimum, you will need to complete steps 1 and 3 (as well as step 4 if you ar
 
 ## Uploading the bootloader
 
-Make sure you have selected *FuzePlay Zubi Flyer* as your board.
+1 Make sure you have selected *FuzePlay Zubi Flyer* as your board.
+
+2 Make sure you have selected *USBtinyISP* as your programmer.
 
 ![Select the USBtinyISP](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/images/select_usb_tiny_isp.png?raw=true!)
-Also make sure you have selected *USBtinyISP* as your programmer.
 
 ![The USBtinyISP](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/images/usb_tiny_isp.jpg?raw=true)
 

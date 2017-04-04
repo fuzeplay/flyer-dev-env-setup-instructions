@@ -14,7 +14,7 @@
                     "architecture":"avr",
                     "version":"1.1.5",
                     "category":"Contributed",
-                    "url":"https://github.com/fuzeplay/flyer-dev-env-setup-instructions/raw/master/fuzeboards.1.1.5.tar.bz2",
+                    "url":"https://rawgit.com/fuzeplay/flyer-dev-env-setup-instructions/master/fuzeboards.1.1.5.tar.bz2",
                     "archiveFileName":"fuzeboards.1.1.5.tar.bz2",
                     "checksum":"SHA-256:0ac90066f274adfa7c8e3ae2551bf654791cb97e5b684d0ec91ff68f8d64dbaa",
                     "size":"1154796",

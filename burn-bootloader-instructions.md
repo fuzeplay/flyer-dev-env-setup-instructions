@@ -9,8 +9,8 @@ At minimum, you will need to complete steps 1 and 3 (as well as step 4 if you ar
 
 Make sure you have selected *FuzePlay Zubi Flyer* as your board.
 
-(Select the USBtinyISP)[!https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/images/select_usb_tiny_isp.png?raw=true]
+[Select the USBtinyISP](!https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/images/select_usb_tiny_isp.png?raw=true!)
 Also make sure you have selected *USBtinyISP* as your programmer.
 
-(The USBtinyISP)[!https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/images/usb_tiny_isp.jpg?raw=true]
-The (USBtinyISP)[https://learn.adafruit.com/usbtinyisp] is a low cost and AVR programmer designed by ladyada, aka (Limor Fried)[https://en.wikipedia.org/wiki/Limor_Fried].
+[The USBtinyISP](!https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/images/usb_tiny_isp.jpg?raw=true)
+The [USBtinyISP](https://learn.adafruit.com/usbtinyisp) is a low cost and AVR programmer designed by ladyada, aka [Limor Fried](https://en.wikipedia.org/wiki/Limor_Fried).

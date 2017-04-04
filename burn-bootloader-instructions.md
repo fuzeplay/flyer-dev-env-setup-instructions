@@ -15,4 +15,9 @@ At minimum, you will need to complete steps 1 and 3 (as well as step 4 if you ar
 
 ![The USBtinyISP](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/images/usb_tiny_isp.jpg?raw=true)
 
-The [USBtinyISP](https://learn.adafruit.com/usbtinyisp) is a low cost and AVR programmer designed by ladyada, aka [Limor Fried](https://en.wikipedia.org/wiki/Limor_Fried).
+The [USBtinyISP](https://learn.adafruit.com/usbtinyisp) is an AVR programmer designed by ladyada, aka [Limor Fried](https://en.wikipedia.org/wiki/Limor_Fried).
+
+3 Connect the USBtinyISP to your laptop using a USB A to B cable.
+
+![The Cable](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/images/usb_tiny_cable.jpg?raw=true)
+

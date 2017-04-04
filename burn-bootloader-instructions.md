@@ -3,7 +3,9 @@
 ## Prerequisites
 Complete the [Zubi Flyer Setup Instructions](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/README.md).
 
-At minimum, you will need to complete steps 1 and 3 (as well as step 4 if you are using Windows).
+At minimum, you will need to complete steps 1 and 3.
+
+If you are using Windows, you will also need to [install the USBtinyISP drivers](https://learn.adafruit.com/usbtinyisp/drivers).
 
 ## Uploading the bootloader
 

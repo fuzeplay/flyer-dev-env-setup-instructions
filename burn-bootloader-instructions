@@ -1,0 +1,9 @@
+#Burning the FuzePlay Bootloader onto a new board
+
+##Prerequisites
+Complete the [Zubi Flyer Setup Instructions](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/README.md).
+
+At minimum, you will need to complete steps 1 and 3 (as well as step 4 if you are using Windows).
+
+
+

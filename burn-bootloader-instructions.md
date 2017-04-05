@@ -31,10 +31,10 @@ The Adapter Board is fragile, so hold onto the Adapter Board when you are connec
 
 ### 4 Connect the Zubi Flyer ISP Adapter Board to the Zubi Flyer
 
-![Connection View One]https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/images/connect_adapter_to_board.png?raw=true
+![Connection View One](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/images/connect_adapter_to_board.png?raw=true)
 
 
-![Connection View Two]https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/images/connect_adapter_to_board_two.png?raw=true
+![Connection View Two](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/images/connect_adapter_to_board_two.png?raw=true)
 
 Make sure your board is oriented like in the picture.
 

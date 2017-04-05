@@ -44,7 +44,9 @@ Make sure your board is oriented like in the picture.
 
 ### 5 Go to Tools > Burn Bootloader
 
-If everything worked correctly, you should see XXXX at the bottom of the Arduino bootloader.
+If everything worked correctly, you should see the following in the Arduino IDE:
+
+![Bootloader Burnt Correctly](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/images/done_burning.png?raw=true)
 
 Sources
 http://www.pighixxx.com/test/portfolio-items/pro-micro/

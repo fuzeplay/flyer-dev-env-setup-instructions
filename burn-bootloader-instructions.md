@@ -42,7 +42,11 @@ Make sure your board is oriented like in the picture.
 
 ![The Cable](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/images/usb_tiny_cable.jpg?raw=true)
 
+The green light on the USBtinyISP should turn on while it is connected to your laptop.
+
 ### 5 Go to Tools > Burn Bootloader
+
+The red light on the USBtinyISP should turn on during the burning process.
 
 If everything worked correctly, you should see the following in the Arduino IDE:
 

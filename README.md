@@ -16,7 +16,7 @@ To start coding the Zubi Flyer, follow these instructions:
 (A "Library" is a bunch of code that somebody else wrote that you can use!)
 
 ### First,
-  1. Download Zubi Flyer's code library: [Zubi Flyer .ZIP Library](https://github.com/fuzeplay/zubi-flyer-games/raw/master/Fuze.zip)
+  1. Download Zubi Flyer's code library: [Zubi Flyer .ZIP Library](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/raw/master/Fuze.zip)
   2. Open the Arduino IDE, and navigate to Sketch > Include Library. At the top of the drop down list, select the option to "Add .ZIP Library''.
   ![Import Library From Zip](https://github.com/fuzeplay/flyer-dev-env-setup-instructions/blob/master/images/select_include_libraries_cropped.png?raw=true)
   3. Find Zubi Flyer's .ZIP library that you just downloaded to your computer and open it.
